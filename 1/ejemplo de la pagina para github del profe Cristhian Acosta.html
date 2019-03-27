@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Ingresar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<!--Titulo-->
+	<div class="header">
+		<h1>Mi Sitio</h1>
+	</div>
+	<div class="contenedor">
+		<!-- Contenedor lateral -->
+		<div class="lateral">
+			<!-- Menu -->
+			<div class="caja">
+			    <p>Menu</p>
+			    <menu type="toolbar">
+			    	<ul>
+				    	<li><input name="login" type="submit" value="portada">
+				        </li>
+				        <li><input name="login" type="submit" value="ingresar">
+				        </li>
+			      	</ul>
+			    </menu>
+			</div>
+			<!-- Texto ejemplo -->
+			 <div class="caja">
+			    <fieldset>
+			      	<legend>Atención</legend>
+			      <div>
+			        <label>Texto de prueba para que rellene el espacio</label>
+			      </div>
+			    </fieldset>
+			</div>
+
+		</div>
+		<!-- formulario -->
+		<div class="principal">
+			<form id="app-login" action="process.php">
+				<fieldset>
+					<legend>Detalles para entrar</legend>
+					<div>
+						<label for="user-name">Nombre de Usuario</label>
+						<input type="email" name="user-name" placeholder="Tu nombre de usuario es tu email" required autofocus size="30">
+					</div>
+
+					<div>
+						<label for="password">Contraseña: </label>
+						<input type="password" name="Contraseña" placeholder="6 digitos, una combinacion de numeros y letras" required size="40">
+					</div>
+
+					<div>
+						<input type="submit" name="Login" value="Entrar">
+					</div>
+				</fieldset>
+			</form>
+			
+		</div>
+		<br>
+	</div>
+	<!-- footer -->
+
+</body>
+<div class="footer">
+    <fieldset>
+    	<footer>Creado en dw2-Axel Jara</footer>
+  	</fieldset>
+</div>
+</html>
